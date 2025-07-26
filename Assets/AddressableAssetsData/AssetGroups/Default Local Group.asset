@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 3fbdd413272024d40aebcaac28664591
+  m_SerializeEntries:
+  - m_GUID: 1fa93e3724068e44db6997b8f1657c3e
+    m_Address: taiki01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - taiki
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2551996ac7ecd1f439e40d13522470fb
+    m_Address: jump03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - jump
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46e3a744437c8bb419d0dc03085745e0
+    m_Address: taiki03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - taiki
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d331b5789823c54bbc99065a386abc8
+    m_Address: jump02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - jump
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f664048bc3d9cd4b9309bc831eb16f2
+    m_Address: jump01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - jump
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa09a6797ad156440ab5575217411f58
+    m_Address: taiki02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - taiki
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 508bf040870959644ba1a985a7f2d1b4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f96ec22c394e9394b90d89448b3e4bf1, type: 2}
+    - {fileID: 11400000, guid: 55e15d35cb2a1ad48a2fb68b6683327f, type: 2}

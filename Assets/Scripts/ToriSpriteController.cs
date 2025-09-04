@@ -17,7 +17,7 @@ public class ToriSpriteController : MonoBehaviour
     int tobiIdx = 1;
     int tatinum = 1;
     int tobinum = 1;
-    static public int count = 0;
+    static public int count = 3;
     static public bool fly;
 
     void Start()
@@ -103,7 +103,7 @@ public class ToriSpriteController : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         fly = true;
-        count++;
+        count--;
     }
 
 }

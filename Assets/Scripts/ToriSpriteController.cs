@@ -17,7 +17,7 @@ public class ToriSpriteController : MonoBehaviour
     int tobiIdx = 1;
     int tatinum = 1;
     int tobinum = 1;
-    static public int count = 3;
+    public int count = 3;
     static public bool fly;
 
     void Start()

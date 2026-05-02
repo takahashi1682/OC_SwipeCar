@@ -1100,9 +1100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ada7ecc89cedb4494b9e5a45b2e437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flag: {fileID: 0}
   speed: 0
-  startPos: {x: 0, y: 0}
   swipeLength: 0
 --- !u!82 &904086245
 AudioSource:
@@ -1284,23 +1282,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tatisprite:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3692331778012739986, guid: 1fa93e3724068e44db6997b8f1657c3e, type: 3}
+  - {fileID: 5289740181879336646, guid: fa09a6797ad156440ab5575217411f58, type: 3}
+  - {fileID: 2360498116505227099, guid: 46e3a744437c8bb419d0dc03085745e0, type: 3}
   Tobisprite:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  fps: 0.05
-  Renderer: {fileID: 0}
-  Car: {fileID: 0}
-  rb: {fileID: 0}
-  tatiTime: 0
-  tobuTime: 0
-  tatiIdx: 1
-  tobiIdx: 1
-  tatinum: 1
-  tobinum: 1
+  - {fileID: 8036289895930248263, guid: 6f664048bc3d9cd4b9309bc831eb16f2, type: 3}
+  - {fileID: 8756547190211423607, guid: 5d331b5789823c54bbc99065a386abc8, type: 3}
+  - {fileID: 7594799510883963442, guid: 2551996ac7ecd1f439e40d13522470fb, type: 3}
   count: 3
 --- !u!50 &904086250
 Rigidbody2D:
@@ -1629,9 +1617,6 @@ MonoBehaviour:
   flag: {fileID: 1135627031}
   distanceTextUGUI: {fileID: 708878277}
   countText: {fileID: 619683098}
-  dead: 0
-  fly: 0
-  _count: 0
 --- !u!4 &2116751963
 Transform:
   m_ObjectHideFlags: 0

@@ -1,11 +1,7 @@
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class ToriSpriteController : MonoBehaviour
 {
-    AsyncOperationHandle<Sprite> Handle;
-   
     [SerializeField] Sprite[] Tatisprite = new Sprite[3];
     [SerializeField] Sprite[] Tobisprite = new Sprite[3];
     float fps = 0.05f;

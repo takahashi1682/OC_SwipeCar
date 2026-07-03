@@ -10,46 +10,47 @@ public class CarController : MonoBehaviour
 
     //public float swipeLength; //距離を求める
 
-    //void Start()
-    //{
-    //    Application.targetFrameRate = 60; //※ゲームのフレームレートを60に固定にする設定
+    void Start()
+    {
+        //Application.targetFrameRate = 60; //※ゲームのフレームレートを60に固定にする設定
 
-    //    this.flag = GameObject.Find("flag"); //※旗の変数に旗のデータを見つけてきて入れてあげる作業
-    //}
+        //this.flag = GameObject.Find("flag"); //※旗の変数に旗のデータを見つけてきて入れてあげる作業
+    }
 
-    //void Update()
-    //{
+    void Update()
+    {
 
-    //    if (Input.GetMouseButtonDown(0))
-    //    {
-    //        this.startPos = Input.mousePosition; // ※クリックをした時の座標をstartPosに入れる
-    //    }
-    //    else if (Input.GetMouseButtonUp(0))
-    //    {
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    this.startPos = Input.mousePosition; // ※クリックをした時の座標をstartPosに入れる
+        //}
 
-    //        Vector2 endPos = Input.mousePosition; // ※クリックを離した時の座標をendPosに入れる
+        //else if (Input.GetMouseButtonUp(0))
+        //{
 
-    //        swipeLength = endPos.x - startPos.x; // ※クリックを離した時の座標 - クリックした時の座標
+        //    Vector2 endPos = Input.mousePosition; // ※クリックを離した時の座標をendPosに入れる
 
-    //        if (swipeLength < 0 || GameDirector.clear || ToriSpriteController.fly)
-    //        {
-    //            return; //  ※もし、車が旗を越している、または後ろにスワイプした場合は、処理をここでストップ
-    //        }
+        //    swipeLength = endPos.x - startPos.x; // ※クリックを離した時の座標 - クリックした時の座標
 
-    //        speed = swipeLength / 1500.0f; // ※スワイプの長さ↑を初速度に変換する
+        //    if (swipeLength < 0 || GameDirector.clear || ToriSpriteController.fly)
+        //    {
+        //        return; //  ※もし、車が旗を越している、または後ろにスワイプした場合は、処理をここでストップ
+        //    }
 
-    //        GetComponent<AudioSource>().Play(); //※効果音再生
-    //    }
+        //    speed = swipeLength / 1500.0f; // ※スワイプの長さ↑を初速度に変換する
+
+        //    GetComponent<AudioSource>().Play(); //※効果音再生
+        //}
 
 
-    //    transform.Translate(speed, speed, 0); // ※Xにspeedの値分、移動する
+        //transform.Translate(speed, speed, 0); // ※Xにspeedの値分、移動する
 
-    //    if (speed <= 0.05)
-    //    {
-    //        speed = 0f;
-    //    }
+        //if (speed <= 0.05)
+        //{
+        //    speed = 0f;
+        //}
 
-    //    speed *= 0.98f; // ※初速度に0.98をかけることで、だんだんと減速させる
-    //}
+        //speed *= 0.98f; // ※初速度に0.98をかけることで、だんだんと減速させる
+    }
 }
 
